@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\customprotocol]
+@="URL:customprotocol Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\customprotocol\DefaultIcon]
+@="C:\\Windows\\notepad.exe,0"
+
+[HKEY_CLASSES_ROOT\customprotocol\shell]
+
+[HKEY_CLASSES_ROOT\customprotocol\shell\open]
+
+[HKEY_CLASSES_ROOT\customprotocol\shell\open\command]
+@="C:\\Windows\\notepad.exe \"%1\""
